@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="tictactoe.css">
+
+    <!-- Custom CSS -->
+    <script src="jquery-3.5.0.min.js" type=""></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    <div class="text">It's <span>PLAYER 1</span> turn.</div>
+
+    <table align="center">
+        <tr>
+            <td>
+                <div id="1of1" class="box light">
+                </div>
+            </td>
+            <td>
+                <div id="1of2" class="box">
+                </div>
+            </td>
+            <td>
+                <div id="1of3" class="box light"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div id="2of1" class="box"></div>
+            </td>
+            <td>
+                <div id="2of2" class="box light"></div>
+            </td>
+            <td>
+                <div id="2of3" class="box"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div id="3of1" class="box light"></div>
+            </td>
+            <td>
+                <div id="3of2" class="box"></div>
+            </td>
+            <td>
+                <div id="3of3" class="box light">
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <button id="reset">RESET</button>
+
+    <script src="tictactoe.js"></script>
+</body>
+
+</html>
